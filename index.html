@@ -1,0 +1,247 @@
+
+
+<html lang="en" >
+
+
+
+    <head>
+    
+      <meta charset="UTF-8">
+      
+    
+      <title>Survey Form Anton</title>
+      
+      
+      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel='stylesheet' href='./index.css'>
+      
+    
+    
+      
+    
+    
+    </head>
+    
+    <body translate="no" >
+      <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Survey Form about me</h1>
+        <p id="description" class="description text-center">
+          Thank you for taking the time to help me improve myself
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <p>You is my ...</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select your role</option>
+            <option value="student">Wife</option>
+            <option value="job">Child</option>
+            <option value="learner">Friend</option>
+            <option value="preferNo">Collega</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+    
+        <div class="form-group">
+          <p>Would you recommend me to a friend?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Of course!! You is cool!</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />So so... you are midle men</label
+          >
+    
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure, you is terrible!</label
+          >
+        </div>
+    
+        <div class="form-group">
+          <p>
+            What color I like?
+          </p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select color</option>
+            <option value="challenges">Red</option>
+            <option value="projects">Green</option>
+            <option value="community">Black</option>
+            <option value="openSource">All</option>
+          </select>
+        </div>
+    
+        <div class="form-group">
+          <p>
+            What would you like I need improve?
+            <span class="clue">(Check some or all)</span>
+          </p>
+    
+          <label
+            ><input
+              name="prefer"
+              value="front-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />My body</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="back-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />My hair</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="data-visualization"
+              type="checkbox"
+              class="input-checkbox"
+            />My smile</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="challenges"
+              type="checkbox"
+              class="input-checkbox"
+            />Will be more seriosly</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="open-source-community"
+              type="checkbox"
+              class="input-checkbox"
+            />More speak</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="gitter-help-rooms"
+              type="checkbox"
+              class="input-checkbox"
+            />More cry</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="videos"
+              type="checkbox"
+              class="input-checkbox"
+            />Create blog</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="city-meetups"
+              type="checkbox"
+              class="input-checkbox"
+            />Study front-end</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="wiki"
+              type="checkbox"
+              class="input-checkbox"
+            />Write book about me</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="forum"
+              type="checkbox"
+              class="input-checkbox"
+            />No improve, I am excellent!</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="additional-courses"
+              type="checkbox"
+              class="input-checkbox"
+            />Nothing help me, My life is terrible</label
+          >
+        </div>
+    
+        <div class="form-group">
+          <p>Write some words for me please</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+    
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Push it for end
+          </button>
+        </div>
+      </form>
+    </div>
+        
+    
+      
+    
+    </body>
+    
+    </html>
+     
+    
